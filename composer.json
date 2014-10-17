@@ -1,0 +1,24 @@
+{
+    "name": "maurocasas/blockchain",
+    "description": "Blockchain for Laravelists! Create & manage wallets, send funds and generate payment gateways.",
+    "keywords": ["blockchain", "bitcoin", "blockchain-api", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mauro Casas",
+            "email": "casas.mauroluciano@gmail.com",
+            "homepage": "https://github.com/maurocasas"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [],
+        "psr-0": {
+            "MauroCasas\\Blockchain\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
