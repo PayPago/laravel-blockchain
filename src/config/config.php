@@ -16,6 +16,8 @@ return array(
      * @link https://blockchain.info/es/api/api_create_code
      */
 
-    'api_secret' => ''
+    'api_secret' => '',
+
+    'cors' => true,
     
 );
